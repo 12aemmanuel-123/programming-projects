@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri;
+  font
+}
+
+.w3-container {
+    font-size: 20px;
+    font-weight: none;
+    background-color: #4dabf7;
+    color: #fff;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.w3-row-padding {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    column-gap: 50px;
+    row-gap: 60px;
+}
+
+.w3-third {
+    font-size: 20px;
+    line-height: 1.5;
+   letter-spacing: 1.7;
+   grid
+}
+
+h2 {
+    font-weight: none;
+}

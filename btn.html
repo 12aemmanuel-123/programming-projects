@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Design</title>
+
+    <style>
+      * {
+        font-family: Arial, "Helvetica", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        border-radius: 5px;
+        margin: auto;
+        width: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 6px 3px #ced4da; outset;
+        padding: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        /* box-shadow: 0 0 3px 2px grey inset; */
+      }
+      .alert {
+        font-size: 30px;
+      }
+
+      .alert:hover {
+        color: #37b24d;
+      }
+
+      .success {
+        background-color: #2f9e44;
+        padding: 14px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .success:hover {
+        background-color: #37b24d;
+        padding: 14px;
+        border: none;
+        color: #fff;
+      }
+
+      .Info {
+        background-color: #4dabf7;
+        padding: 14px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .Info:hover {
+        background-color: #1c7ed6;
+        padding: 14px;
+        border: none;
+        color: #fff;
+      }
+
+      .Warning {
+        background-color: #fab005;
+        padding: 14px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .Warning:hover {
+        background-color: #f08c00;
+        padding: 14px;
+        border: none;
+        color: #fff;
+      }
+
+      .Danger {
+        background-color: #f03e3e;
+        padding: 14px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .Danger:hover {
+        background-color: #e03131;
+        padding: 14px;
+        border: none;
+        color: #fff;
+      }
+
+      .Default {
+        background-color: #ced4da;
+        padding: 14px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .Default:hover {
+        background-color: #adb5bd;
+        padding: 14px;
+        border: none;
+        color: #fff;
+      }
+
+      .learn-info {
+        background-color: #ced4da;
+        padding: 10px;
+        margin-top: 10px;
+        /* margin: 10px; */
+      }
+
+      .learn-how {
+        background-color: #37b24d;
+        color: #fff;
+        width: 70px;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 6px;
+        /* height: 19px; */
+      }
+
+      .learn-how:hover {
+        background-color: #2f9e44;
+      }
+
+      .alert {
+            margin-bottom: 10px;
+      }
+      .button {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      /*
+      @font-face {
+        font-family: "Tajawal;
+        src: url(/assets/fonts/Tajawal/OFL.txt);
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="alert">Alert Buttons</h2>
+      <div class="button">
+        <button class="success">Success</button>
+        <button class="Info">Info</button>
+        <button class="Warning">Warning</button>
+        <button class="Danger">Danger</button>
+        <button class="Default">Default</button>
+      </div>
+
+      <aside class="learn-info">
+        <h2 class="learn-how">
+          Learn How To<ion-icon name="chevron-forward-outline"></ion-icon>
+        </h2>
+      </aside>
+    </div>
+  </body>
+</html>
